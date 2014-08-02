@@ -1,0 +1,31 @@
+{
+  "name": "black-ip-list",
+  "version": "0.0.1",
+  "description": "black ip list",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js --reporter ./node_modules/jshint-stylish/stylish.js --exclude node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lichunqiang/black-ip-list"
+  },
+  "keywords": [
+    "rubbish",
+    "ip",
+    "list"
+  ],
+  "author": "light",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichunqiang/black-ip-list/issues"
+  },
+  "homepage": "https://github.com/lichunqiang/black-ip-list",
+  "dependencies": {
+    "got": "^0.3.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.2",
+    "jshint-stylish": "^0.4.0"
+  }
+}
