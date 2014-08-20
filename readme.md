@@ -9,9 +9,9 @@ Collections of black ip list.
 
 
 ## Test
-
-  npm test
-
+```sh
+  $npm test
+```
 ## Help
 
 Please give me more source. Thanks.
