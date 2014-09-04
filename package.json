@@ -1,10 +1,12 @@
 {
   "name": "black-ip-list",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "black ip list",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js --reporter ./node_modules/jshint-stylish/stylish.js --exclude node_modules"
+    "test": "jshint index.js --reporter ./node_modules/jshint-stylish/stylish.js --exclude node_modules",
+    "prepublish": "node index",
+    "postinstall": "node index"
   },
   "repository": {
     "type": "git",
