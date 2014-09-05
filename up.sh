@@ -1,5 +1,9 @@
 #!/bin/bash
 
+SO="${BASH_SOURCE[0]}"
+DIR=`dirname "$SO"`
+cd $DIR
+pwd
 if [ ! -e "node_modules" ];then
  npm install
 fi
